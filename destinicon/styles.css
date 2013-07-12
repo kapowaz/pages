@@ -1,0 +1,182 @@
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "destinicon";
+  src:url("fonts/destinicon.eot");
+  src:url("fonts/destinicon.eot?#iefix") format("embedded-opentype"),
+    url("fonts/destinicon.ttf") format("truetype"),
+    url("fonts/destinicon.svg#destinicon") format("svg"),
+    url("fonts/destinicon.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "destinicon";
+  content: attr(data-icon);
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none !important;
+  speak: none;
+  display: inline-block;
+  text-decoration: none;
+  width: 1em;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "destinicon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none !important;
+  speak: none;
+  display: inline-block;
+  text-decoration: none;
+  width: 1em;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.icon-autobacon:before {
+  content: "a";
+}
+
+.icon-compose:before {
+  content: "b";
+}
+
+.icon-valid:before {
+  content: "c";
+}
+
+.icon-triangle-b:before {
+  content: "d";
+}
+
+.icon-required:before {
+  content: "e";
+}
+
+.icon-post-unread:before {
+  content: "f";
+}
+
+.icon-paginate-right:before {
+  content: "g";
+}
+
+.icon-markdown-empty:before {
+  content: "h";
+}
+
+.icon-info:before {
+  content: "i";
+}
+
+.icon-hex-logo-b:before {
+  content: "j";
+}
+
+.icon-flag:before {
+  content: "k";
+}
+
+.icon-edit:before {
+  content: "l";
+}
+
+.icon-warning:before {
+  content: "m";
+}
+
+.icon-view-parent:before {
+  content: "n";
+}
+
+.icon-triangle-ring:before {
+  content: "o";
+}
+
+.icon-spinner:before {
+  content: "p";
+}
+
+.icon-post-unread-fill:before {
+  content: "q";
+}
+
+.icon-pending:before {
+  content: "r";
+}
+
+.icon-markdown-fill:before {
+  content: "s";
+}
+
+.icon-kapowaz-k:before {
+  content: "t";
+}
+
+.icon-hex-logo-c:before {
+  content: "u";
+}
+
+.icon-error:before {
+  content: "v";
+}
+
+.icon-destination-a:before {
+  content: "w";
+}
+
+.icon-helljumpers:before {
+  content: "x";
+}
+
+.icon-hex-logo-a:before {
+  content: "y";
+}
+
+.icon-hex-logo-d:before {
+  content: "z";
+}
+
+.icon-link:before {
+  content: "A";
+}
+
+.icon-paginate-left:before {
+  content: "B";
+}
+
+.icon-post-read:before {
+  content: "C";
+}
+
+.icon-reply:before {
+  content: "D";
+}
+
+.icon-triangle-a:before {
+  content: "E";
+}
+
+.icon-upvote:before {
+  content: "F";
+}
+
+.icon-external-link:before {
+  content: "G";
+}
+
+.icon-downvote:before {
+  content: "H";
+}
+

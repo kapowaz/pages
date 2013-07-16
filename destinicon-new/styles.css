@@ -17,7 +17,17 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.icon-autobacon:before { content: '\f000'} /*  */
+@-webkit-keyframes rotate {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+
+@-moz-keyframes rotate {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+
+.icon-autobacon:before { font-size: 24px; content: '\f000'} /*  */
 .icon-compose:before { content: '\f001'} /*  */
 .icon-darlow:before { font-size: 18px; content: '\f002'} /*  */
 .icon-destination_a:before { content: '\f004'} /*  */
@@ -38,7 +48,20 @@
 .icon-markdown_fill:before { font-size: 18px; content: '\f013'} /*  */
 .icon-paginate_left:before { content: '\f014'} /*  */
 .icon-paginate_right:before { content: '\f015'} /*  */
-.icon-pending:before { content: '\f016'} /*  */
+
+.icon-pending {
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+  -moz-animation-name: rotate;
+  -moz-animation-duration: 1s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+}
+
+.icon-pending:before { content: '\f016'; } /*  */
 .icon-post_read:before { content: '\f017'} /*  */
 .icon-post_unread:before { content: '\f018'} /*  */
 .icon-post_unread_fill:before { content: '\f019'} /*  */

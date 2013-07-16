@@ -44,8 +44,8 @@
 .icon-info:before { content: '\f00f'} /*  */
 .icon-kapowaz_k:before { font-size: 20px; content: '\f010'} /*  */
 .icon-link:before { content: '\f011'} /*  */
-.icon-markdown_empty:before { font-size: 18px; content: '\f012'} /*  */
-.icon-markdown_fill:before { font-size: 18px; content: '\f013'} /*  */
+.icon-markdown_empty:before { font-size: 19px; content: '\f012'} /*  */
+.icon-markdown_fill:before { font-size: 19px; content: '\f013'} /*  */
 .icon-paginate_left:before { content: '\f014'} /*  */
 .icon-paginate_right:before { content: '\f015'} /*  */
 

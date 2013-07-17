@@ -27,7 +27,21 @@
   to { -moz-transform: rotate(360deg); }
 }
 
-.icon-pending {
+@-webkit-keyframes bounce-rotate {
+  0% { -webkit-transform: rotate(0deg); }
+  50% { -webkit-transform: rotate(130deg); }
+  75% { -webkit-transform: rotate(110deg); }
+  100% { -webkit-transform: rotate(120deg); }
+}
+
+@-moz-keyframes bounce-rotate {
+  0% { -moz-transform: rotate(0deg); }
+  50% { -moz-transform: rotate(130deg); }
+  75% { -moz-transform: rotate(110deg); }
+  100% { -moz-transform: rotate(120deg); }
+}
+
+span.icon-pending {
   -webkit-animation-name: rotate;
   -webkit-animation-duration: 1s;
   -webkit-animation-iteration-count: infinite;
@@ -37,6 +51,16 @@
   -moz-animation-duration: 1s;
   -moz-animation-iteration-count: infinite;
   -moz-animation-timing-function: linear;
+}
+
+span.icon-spinner {
+  -webkit-animation-name: bounce-rotate;
+  -webkit-animation-duration: 0.5s; 
+  -webkit-animation-iteration-count: infinite;
+  
+  -moz-animation-name: bounce-rotate;
+  -moz-animation-duration: 0.5s; 
+  -moz-animation-iteration-count: infinite;
 }
 
 span.icon-admin:before { font-size: 16px; content: '\f000'} /*  */
@@ -117,20 +141,18 @@ h1:before { font-family: 'destinicon'; font-weight: normal; font-size: 32px; con
 .icon-examples li {
   line-height: 24px;
   position: relative;
+  margin-left: 20px;
 }
 
 .icon-examples li span.text {
   position: absolute;
-  left: 40px;
+  left: 50px;
   line-height: 40px;
 }
 
 ul.icon-list { padding: 50px; }
 
 .icon {
-  width: 40px;
-  height: 40px;
-  text-align: center;
   line-height: 40px;
 }
 

@@ -27,28 +27,6 @@
   to { -moz-transform: rotate(360deg); }
 }
 
-.icon-autobacon:before { font-size: 24px; content: '\f000'} /*  */
-.icon-compose:before { content: '\f001'} /*  */
-.icon-darlow:before { font-size: 18px; content: '\f002'} /*  */
-.icon-destination_a:before { content: '\f004'} /*  */
-.icon-downvote:before { content: '\f005'} /*  */
-.icon-edit:before { content: '\f006'} /*  */
-.icon-error:before { content: '\f007'} /*  */
-.icon-external_link:before { content: '\f008'} /*  */
-.icon-flag:before { content: '\f009'} /*  */
-.icon-helljumpers:before { font-size: 24px; content: '\f00a'} /*  */
-.icon-hex_logo_a:before { font-size: 32px; content: '\f00b'} /*  */
-.icon-hex_logo_b:before { font-size: 32px; content: '\f00c'} /*  */
-.icon-hex_logo_c:before { font-size: 32px; content: '\f00d'} /*  */
-.icon-hex_logo_d:before { font-size: 32px; content: '\f00e'} /*  */
-.icon-info:before { content: '\f00f'} /*  */
-.icon-kapowaz_k:before { font-size: 20px; content: '\f010'} /*  */
-.icon-link:before { content: '\f011'} /*  */
-.icon-markdown_empty:before { font-size: 19px; content: '\f012'} /*  */
-.icon-markdown_fill:before { font-size: 19px; content: '\f013'} /*  */
-.icon-paginate_left:before { content: '\f014'} /*  */
-.icon-paginate_right:before { content: '\f015'} /*  */
-
 .icon-pending {
   -webkit-animation-name: rotate;
   -webkit-animation-duration: 1s;
@@ -61,20 +39,63 @@
   -moz-animation-timing-function: linear;
 }
 
-.icon-pending:before { content: '\f016'; } /*  */
-.icon-post_read:before { content: '\f017'} /*  */
-.icon-post_unread:before { content: '\f018'} /*  */
-.icon-post_unread_fill:before { content: '\f019'} /*  */
-.icon-reply:before { content: '\f01a'} /*  */
-.icon-required:before { content: '\f01b'} /*  */
-.icon-spinner:before { font-size: 32px; content: '\f01c'} /*  */
-.icon-triangle_a:before { font-size: 24px; content: '\f01d'} /*  */
-.icon-triangle_b:before { font-size: 24px; content: '\f01e'} /*  */
-.icon-triangle_ring:before { font-size: 24px; content: '\f01f'} /*  */
-.icon-upvote:before { content: '\f020'} /*  */
-.icon-valid:before { content: '\f021'} /*  */
-.icon-view_parent:before { content: '\f022'} /*  */
-.icon-warning:before { content: '\f023'} /*  */
+span.icon-admin:before { font-size: 16px; content: '\f000'} /*  */
+span.icon-armory_chest:before { content: '\f001'} /*  */
+span.icon-armory_helmet:before { content: '\f002'} /*  */
+span.icon-autobacon:before { font-size: 24px; content: '\f003'} /*  */
+span.icon-back:before { content: '\f004'} /*  */
+span.icon-compose:before { content: '\f005'} /*  */
+span.icon-darlow:before { font-size: 18px; content: '\f006'} /*  */
+span.icon-demo:before { content: '\f007'} /*  */
+span.icon-destination_a:before { content: '\f008'} /*  */
+span.icon-downvote:before { content: '\f009'} /*  */
+span.icon-edit:before { content: '\f00a'} /*  */
+span.icon-error:before { content: '\f00b'} /*  */
+span.icon-external_link:before { content: '\f00c'} /*  */
+span.icon-flag:before { content: '\f00d'} /*  */
+span.icon-helljumpers:before { font-size: 24px; content: '\f00e'} /*  */
+span.icon-hex_logo_a:before { font-size: 28px; content: '\f00f'} /*  */
+span.icon-hex_logo_b:before { font-size: 28px; content: '\f010'} /*  */
+span.icon-hex_logo_c:before { font-size: 28px; content: '\f011'} /*  */
+span.icon-hex_logo_d:before { font-size: 28px; content: '\f012'} /*  */
+span.icon-hex_pin:before { content: '\f013'} /*  */
+span.icon-info:before { content: '\f014'} /*  */
+span.icon-kapowaz_k:before { font-size: 20px; content: '\f015'} /*  */
+span.icon-link:before { content: '\f016'} /*  */
+span.icon-list:before { content: '\f017'} /*  */
+span.icon-lock:before { content: '\f018'} /*  */
+span.icon-locked_thread:before { content: '\f019'} /*  */
+span.icon-markdown_detail:before { font-size: 19px; content: '\f01a'} /*  */
+span.icon-markdown_empty:before { font-size: 19px; content: '\f01b'} /*  */
+span.icon-markdown_fill:before { font-size: 19px; content: '\f01c'} /*  */
+span.icon-next_page:before { content: '\f01d'} /*  */
+span.icon-paginate_left:before { content: '\f01e'} /*  */
+span.icon-paginate_right:before { content: '\f01f'} /*  */
+span.icon-pending:before { content: '\f020'} /*  */
+span.icon-post:before { content: '\f021'} /*  */
+span.icon-post_read:before { content: '\f022'} /*  */
+span.icon-post_unread:before { content: '\f023'} /*  */
+span.icon-post_unread_fill:before { content: '\f024'} /*  */
+span.icon-previous_page:before { content: '\f025'} /*  */
+span.icon-redact:before { content: '\f026'} /*  */
+span.icon-reply:before { content: '\f027'} /*  */
+span.icon-required:before { content: '\f028'} /*  */
+span.icon-spinner:before { font-size: 32px; content: '\f029'} /*  */
+span.icon-stat_agility:before { content: '\f02a'} /*  */
+span.icon-stat_discipline:before { content: '\f02b'} /*  */
+span.icon-stat_energy:before { content: '\f02c'} /*  */
+span.icon-stat_itemlevel:before { content: '\f02d'} /*  */
+span.icon-stat_luck:before { content: '\f02e'} /*  */
+span.icon-stat_shields:before { content: '\f02f'} /*  */
+span.icon-thread:before { content: '\f030'} /*  */
+span.icon-triangle_a:before { font-size: 24px; content: '\f031'} /*  */
+span.icon-triangle_b:before { font-size: 24px; content: '\f032'} /*  */
+span.icon-triangle_ring:before { font-size: 24px; content: '\f033'} /*  */
+span.icon-unlist:before { content: '\f034'} /*  */
+span.icon-upvote:before { content: '\f035'} /*  */
+span.icon-valid:before { content: '\f036'} /*  */
+span.icon-view_parent:before { content: '\f037'} /*  */
+span.icon-warning:before { content: '\f038'} /*  */
 
 
 body { font-family: 'Helvetica Neue', helvetica, arial, sans-serif; }
@@ -85,6 +106,7 @@ h1 {
   font-size: 40px;
   border-bottom: 1px solid #ddd;
 }
+h1:before { font-family: 'destinicon'; font-weight: normal; font-size: 32px; content: '\f000'; margin-right: 10px; }
 
 .icon-examples {
   list-style: none;
@@ -100,11 +122,17 @@ h1 {
 .icon-examples li span.text {
   position: absolute;
   left: 40px;
+  line-height: 40px;
 }
 
-.icon-list { padding: 50px; }
+ul.icon-list { padding: 50px; }
 
-.icon { margin-right: 5px; }
+.icon {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
 
 .next-steps p,
 .next-steps h2,
